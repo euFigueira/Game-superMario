@@ -84,3 +84,37 @@
     right: 100%;
   }
 }
+
+@media (max-width: 768px) {
+  @keyframes jump {
+  
+    0% {
+      bottom: 0;
+    }
+  
+    40% {
+      bottom: 200px;
+    }
+  
+    50% {
+      bottom: 200px;
+    }
+  
+    60% {
+      bottom: 200px;
+    }
+
+    70% {
+      bottom: 200px;
+    }
+
+    80% {
+      bottom: 200px;
+    }
+  
+    180% {
+      bottom: 0;
+    }
+  
+  }
+}
